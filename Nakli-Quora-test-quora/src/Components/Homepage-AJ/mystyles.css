@@ -1,0 +1,126 @@
+.h1{
+
+   color: rgb(201, 11, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: bolder;
+    
+}
+.heading{
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+    margin-left:220px;
+    font-weight: normal;
+    margin: auto;
+    
+}
+.buttons{
+
+    margin-left: 10px;
+}
+.search-container{
+
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  
+
+}
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 117px; /* Stay at the top */
+    left: 186px;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 0px 0px 6px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #2d2dd3;
+  }
+  .paper{
+
+    width: 400;
+    margin: 1px auto;
+    padding: 2px;
+    
+  }
+  .container{
+      min-height: 100vh;
+      border: 10;
+      display: flex;
+      flex-direction: column;
+    
+       background-color:  rgba(200, 200, 200, 0.517);
+      align-items: center;
+      align-content: space-around;
+     
+      
+  }
+  
+  .cardcontent{
+    position: absolute;
+    top: 4.5cm;
+    right: 0.0001px;
+    margin-right: 400px;
+    width: 17cm;
+    height: 3.5cm; 
+   
+    
+  }
+  a{
+    color: rgba(0, 0, 0, 0.741);
+    text-decoration: none;
+    
+  }
+  .card{
+    position: absolute;
+    top: 2.75cm;
+    right: 0.0001px;
+    margin-right: 400px;
+    width: 17cm;
+    height: 3cm;
+    padding: 0px 0px 0px 9px;
+    
+  }
+  
+    .card-text1{
+
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        font-weight: bold;
+        line-height: 2.3;
+        color: #333;
+        font-size: 18px;
+        margin-right: 10cm;
+        
+    }
+  
+
+    
+  
+  a:hover 
+{
+ color:grey; 
+ text-decoration:none; 
+ cursor:pointer;  
+}
+  .fixable_fixed{
+    top: 122.6px;
+    position: fixed;
+    width: 142px;
+
+  }
